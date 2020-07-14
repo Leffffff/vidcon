@@ -2,8 +2,12 @@
 
 ### Video converter 
 
+``` bash
+npm i
+```
+
 ## Usage
 
-``` javascript
+``` bash
 npm run video -i [input file path] -o [output file path]
 ```
