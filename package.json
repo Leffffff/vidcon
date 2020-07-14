@@ -1,0 +1,17 @@
+{
+  "name": "ebub-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "video": "node video-convert.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handbrake": "0.0.1",
+    "handbrake-js": "^5.0.0",
+    "yargs": "^15.4.1"
+  }
+}
