@@ -1,16 +1,18 @@
 {
-  "name": "ebub-pdf",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "vidcon",
+  "version": "69.4.20",
+  "description": "Video converter",
+  "main": "video-convert.js",
   "scripts": {
     "video": "node video-convert.js"
   },
+  "bin": {
+    "vidcon": "./video-convert.js"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Leffffff",
   "license": "ISC",
   "dependencies": {
-    "handbrake": "0.0.1",
     "handbrake-js": "^5.0.0",
     "yargs": "^15.4.1"
   }
